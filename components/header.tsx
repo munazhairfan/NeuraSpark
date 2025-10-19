@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 export default function Header() {
   return (
@@ -14,18 +15,18 @@ export default function Header() {
         </motion.div>
 
         <nav className="hidden md:flex gap-8">
-          <a href="/" className="text-foreground/70 hover:text-accent transition-colors">
+          <Link href="/" className="text-foreground/70 hover:text-accent transition-colors">
             Home
-          </a>
-          <a href="./concepts" className="text-foreground/70 hover:text-accent transition-colors">
+          </Link>
+          <Link href="./concepts" className="text-foreground/70 hover:text-accent transition-colors">
             Concepts
-          </a>
-          <a href="./comparisons" className="text-foreground/70 hover:text-accent transition-colors">
+          </Link>
+          <Link href="./comparisons" className="text-foreground/70 hover:text-accent transition-colors">
             Comparison
-          </a>
-          <a href="./learn" className="text-foreground/70 hover:text-accent transition-colors">
+          </Link>
+          <Link href="./learn" className="text-foreground/70 hover:text-accent transition-colors">
             Learn
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

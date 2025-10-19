@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -35,10 +36,10 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <button className="h-12 w-40 bg-accent text-accent-foreground rounded-full font-semibold hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 transform hover:scale-105">
-              <a href="./learn" className="w-full h-full">Start Learning</a>
+              <Link href="./learn" className="w-full h-full">Start Learning</Link>
             </button>
             <button className="h-12 w-40 border-2 border-accent text-accent rounded-full font-semibold hover:bg-accent/10 transition-all duration-300">
-              <a href="./concepts" className="w-full h-full">Explore More</a>              
+              <Link href="./concepts" className="w-full h-full">Explore More</Link>              
             </button>
           </motion.div>
         </motion.div>
