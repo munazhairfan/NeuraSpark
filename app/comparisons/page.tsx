@@ -3,8 +3,8 @@ import CircularComparison from "@/components/circular-comparison"
 
 const Comparison = () => {
   return (
-        <section className="m-32">
-          <h2 className="text-5xl md:text-6xl font-bold text-center mb-32 text-foreground">
+        <section className="m-4 md:m-12 lg:m-32">
+          <h2 className="text-5xl md:text-6xl font-bold text-center mb-10 md:mb-32 text-foreground">
             <span className="text-accent">Circular</span> Comparisons
           </h2>
           <div className=' border-t-[1px] border-amber-400'>

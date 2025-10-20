@@ -48,7 +48,7 @@ export default function CircularComparison() {
             >
               <motion.button
                 onClick={() => setActiveIndex(index)}
-                className={`w-24 h-24 rounded-full flex items-center justify-center text-3xl font-bold transition-all duration-300 ${
+                className={`w-14 sm:w-24 h-14 sm:h-24 rounded-full flex items-center justify-center text-3xl font-bold transition-all duration-300 ${
                   activeIndex === index
                     ? "bg-accent text-accent-foreground scale-125 shadow-lg shadow-accent/50"
                     : "bg-card border-2 border-accent text-accent hover:scale-110"
@@ -69,7 +69,7 @@ export default function CircularComparison() {
           transition={{ duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
         >
           <div className="text-center">
-            <p className="text-lg text-muted-foreground">Explore the <br></br>Circles</p>
+            <p className="text-sm md:text-lg text-muted-foreground">Explore the <br></br>Circles</p>
           </div>
         </motion.div>
       </div>

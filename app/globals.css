@@ -14,7 +14,6 @@
   --card-foreground: oklch(0.98 0 0);
   --popover: oklch(0.12 0 0);
   --popover-foreground: oklch(0.98 0 0);
-  /* Updated accent to neon yellow (brighter, more luminous) */
   --primary: oklch(0.92 0.25 70);
   --primary-foreground: oklch(0.08 0 0);
   --secondary: oklch(0.15 0 0);
@@ -129,7 +128,6 @@
   }
 }
 
-/* Updated glow-pulse animation to use neon yellow */
 @keyframes blob-animation {
   0%,
   100% {

@@ -14,7 +14,7 @@ export default function FlippingCard({ frontTitle, frontDescription, backContent
 
   return (
     <motion.div
-      className="h-80 cursor-pointer perspective"
+      className="h-60 md:h-80 cursor-pointer perspective"
       onClick={() => setIsFlipped(!isFlipped)}
       whileHover={{ scale: 1.05 }}
       transition={{ type: "spring", stiffness: 300, damping: 30 }}
@@ -41,7 +41,7 @@ export default function FlippingCard({ frontTitle, frontDescription, backContent
           className="absolute w-full h-full bg-card border-2 border-accent rounded-2xl p-8 flex flex-col justify-center items-center glow-border"
           style={{ backfaceVisibility: "hidden", rotateY: 180 }}
         >
-          <p className="text-foreground text-base leading-relaxed">{backContent}</p>
+          <p className="text-foreground text-[14px] md:text-base leading-relaxed">{backContent}</p>
         </motion.div>
       </motion.div>
     </motion.div>

@@ -33,7 +33,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 items-center"
           >
             <button className="h-12 w-40 bg-accent text-accent-foreground rounded-full font-semibold hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 transform hover:scale-105">
               <Link href="./learn" className="w-full h-full">Start Learning</Link>
@@ -48,7 +48,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8, x: 30 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="relative h-96 flex items-center justify-center"
+          className="hidden relative h-96 md:flex items-center justify-center"
         >
           {/* Glowing Brain SVG */}
           <svg

@@ -66,14 +66,14 @@ export default function SideBySideComparison() {
     >
       {/* Aspect Column */}
       <motion.div variants={itemVariants} className="space-y-4">
-        <div className="bg-[rgba(255,230,92,0.2)] border-2 border-accent/30 rounded-2xl p-6 glow-border">
-          <h3 className="text-3xl font-bold text-accent text-center">Aspect</h3>
+        <div className="bg-[rgba(255,230,92,0.2)] border-2 border-accent/30 rounded-2xl px-6 py-2 md:p-6 glow-border">
+          <h3 className="text-xl md:text-base font-bold text-accent text-center">Aspect</h3>
         </div>
         {comparisonData.map((item, index) => (
           <motion.div
             key={index}
             variants={itemVariants}
-            className="bg-[rgba(255,230,92,0.2)] border-2 border-accent/30 rounded-2xl p-6 min-h-24 flex items-center"
+            className="bg-[rgba(255,230,92,0.2)] border-2 border-accent/30 rounded-2xl px-6 py-2 md:p-6 md:min-h-24 flex items-center"
           >
             <p className="font-semibold text-foreground">{item.aspect}</p>
           </motion.div>
@@ -82,14 +82,14 @@ export default function SideBySideComparison() {
 
       {/* Prompt Engineering Column */}
       <motion.div variants={itemVariants} className="space-y-4">
-        <div className="bg-gradient-to-br from-accent/30 to-accent/10 border-2 border-accent rounded-2xl p-6 glow-border">
-          <h3 className="text-3xl font-bold text-accent text-center">Prompt Engineering</h3>
+        <div className="bg-gradient-to-br from-accent/30 to-accent/10 border-2 border-accent rounded-2xl px-6 py-2 md:p-6 glow-border">
+          <h3 className="text-xl md:text-base font-bold text-accent text-center">Prompt Engineering</h3>
         </div>
         {comparisonData.map((item, index) => (
           <motion.div
             key={index}
             variants={itemVariants}
-            className="bg-card border-2 border-accent/50 rounded-2xl p-6 min-h-24 flex items-center hover:border-accent transition-colors duration-300"
+            className="bg-card border-2 border-accent/50 rounded-2xl px-6 py-2 md:p-6 md:min-h-24 flex items-center hover:border-accent transition-colors duration-300"
           >
             <p className="text-foreground text-sm leading-relaxed">{item.promptEng}</p>
           </motion.div>
@@ -98,14 +98,14 @@ export default function SideBySideComparison() {
 
       {/* Context Engineering Column */}
       <motion.div variants={itemVariants} className="space-y-4">
-        <div className="bg-gradient-to-br from-accent/30 to-accent/10 border-2 border-accent rounded-2xl p-6 glow-border">
-          <h3 className="text-3xl font-bold text-accent text-center">Context Engineering</h3>
+        <div className="bg-gradient-to-br from-accent/30 to-accent/10 border-2 border-accent rounded-2xl px-6 py-2 md:p-6 glow-border">
+          <h3 className="text-xl md:text-base font-bold text-accent text-center">Context Engineering</h3>
         </div>
         {comparisonData.map((item, index) => (
           <motion.div
             key={index}
             variants={itemVariants}
-            className="bg-card border-2 border-accent/50 rounded-2xl p-6 min-h-24 flex items-center hover:border-accent transition-colors duration-300"
+            className="bg-card border-2 border-accent/50 rounded-2xl px-6 py-2 md:p-6 md:min-h-24 flex items-center hover:border-accent transition-colors duration-300"
           >
             <p className="text-foreground text-sm leading-relaxed">{item.contextEng}</p>
           </motion.div>
