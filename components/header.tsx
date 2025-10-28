@@ -18,14 +18,14 @@ export default function Header() {
           <Link href="/" className="text-foreground/70 hover:text-accent transition-colors">
             Home
           </Link>
-          <Link href="./concepts" className="text-foreground/70 hover:text-accent transition-colors">
+          <Link href="/learn" className="text-foreground/70 hover:text-accent transition-colors">
+            Learn
+          </Link>
+          <Link href="/concepts" className="text-foreground/70 hover:text-accent transition-colors">
             Concepts
           </Link>
-          <Link href="./comparisons" className="text-foreground/70 hover:text-accent transition-colors">
+          <Link href="/comparisons" className="text-foreground/70 hover:text-accent transition-colors">
             Comparisons
-          </Link>
-          <Link href="./learn" className="text-foreground/70 hover:text-accent transition-colors">
-            Learn
           </Link>
         </nav>
       </div>

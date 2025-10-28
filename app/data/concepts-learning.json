@@ -1,0 +1,64 @@
+{
+  "learnTopics": [
+    {
+      "slug": "prompt-engineering",
+      "title": "Prompt Engineering",
+      "paragraph": "Prompt Engineering is the skill of crafting precise, clear, and optimized instructions for AI models to generate the most accurate and relevant responses. It involves understanding how AI interprets language, experimenting with phrasing, and refining prompts iteratively to ensure outputs are consistent, relevant, and actionable. Effective prompt engineering can dramatically improve the quality of AI-generated content and reduce misunderstandings or irrelevant results.",
+      "qa": [
+        {
+          "question": "Why does this matter?",
+          "answer": "Prompt engineering defines how clearly you can communicate with an AI — the clearer the question, the better the answer."
+        },
+        {
+          "question": "How is it used in practice?",
+          "answer": "Used in chatbots, automation, and LLM fine-tuning to generate specific, controlled responses."
+        }
+      ]
+    },
+    {
+      "slug": "context-engineering",
+      "title": "Context Engineering",
+      "paragraph": "Context Engineering focuses on providing AI systems with comprehensive background knowledge, constraints, and relevant data so that outputs are not only accurate but also contextually appropriate. It involves structuring input information, including references, metadata, and historical context, to guide the AI’s reasoning and decision-making. Proper context engineering reduces errors, hallucinations, and irrelevant responses, ensuring AI understands the broader scenario before generating answers.",
+      "qa": [
+        {
+          "question": "Why does this matter?",
+          "answer": "Context shapes understanding — without it, even perfect prompts can produce irrelevant results."
+        },
+        {
+          "question": "How is it used in practice?",
+          "answer": "Applied in RAG (Retrieval-Augmented Generation) systems to provide background info for smarter AI responses."
+        }
+      ]
+    },
+    {
+      "slug": "chain-of-thought",
+      "title": "Chain of Thought (CoT)",
+      "paragraph": "Chain of Thought encourages AI models to reason step-by-step before arriving at a conclusion. By breaking complex problems into smaller steps and thinking aloud internally, the AI produces structured, transparent, and logical outputs. This method improves interpretability, reduces errors, and enhances reliability in reasoning-heavy tasks such as problem-solving, logic, and analysis. It mirrors how humans approach multi-step reasoning tasks, making AI reasoning more predictable and understandable.",
+      "qa": [
+        {
+          "question": "Why does this matter?",
+          "answer": "CoT improves reliability for reasoning-heavy tasks like math, logic, and analysis."
+        },
+        {
+          "question": "How is it used in practice?",
+          "answer": "Applied in educational, diagnostic, and problem-solving AI models for clearer logical output."
+        }
+      ]
+    },
+    {
+      "slug": "tree-of-thought",
+      "title": "Tree of Thought (ToT)",
+      "paragraph": "Tree of Thought builds on Chain of Thought by allowing AI to explore multiple reasoning paths simultaneously. Each branch is evaluated for logical correctness or creative potential, and the AI chooses the optimal path to reach a conclusion. This approach enhances adaptability, creativity, and decision quality for tasks that involve multiple solutions or complex scenarios. It is particularly useful in planning, story generation, and multi-step problem-solving where evaluating alternatives is crucial.",
+      "qa": [
+        {
+          "question": "Why does this matter?",
+          "answer": "ToT improves creativity, adaptability, and decision quality in complex reasoning tasks."
+        },
+        {
+          "question": "How is it used in practice?",
+          "answer": "Used in planning, story generation, and multi-solution problem-solving models."
+        }
+      ]
+    }
+  ]
+}

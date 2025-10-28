@@ -1,0 +1,192 @@
+{
+  "topics": [
+    {
+      "slug": "prompt-engineering",
+      "title": "Prompt Engineering",
+      "overview": "Prompt Engineering is the skill of crafting precise, clear, and optimized instructions for AI models to generate the most accurate and relevant responses. It’s about communicating with the model effectively so it ‘understands’ exactly what’s being asked.",
+      "flippingCards": [
+        {
+          "frontTitle": "Precision Matters",
+          "frontDescription": "Clarity improves output quality.",
+          "backContent": "Even small changes in wording can greatly impact the AI's interpretation and result. The goal is to find the phrasing that yields the most consistent and relevant answer."
+        },
+        {
+          "frontTitle": "Iterative Refinement",
+          "frontDescription": "Prompting is an evolving skill.",
+          "backContent": "Prompt engineering is often trial and error — testing, analyzing, and improving prompts until the desired behavior emerges."
+        }
+      ],
+      "comparison": {
+        "title": "Prompt Engineering vs Context Engineering",
+        "points": [
+          {
+            "aspect": "Focus",
+            "prompt": "Focuses on *how* the question is phrased.",
+            "context": "Focuses on *what background* is provided."
+          },
+          {
+            "aspect": "Primary Benefit",
+            "prompt": "Improves the AI's direct understanding of the task.",
+            "context": "Improves the AI's situational awareness of the task."
+          },
+          {
+            "aspect": "Example",
+            "prompt": "Example: 'Summarize this in 3 key points.'",
+            "context": "Example: Providing relevant documents or metadata."
+          }
+        ]
+      },
+      "circularButtons": [
+        {
+          "label": "Why it matters",
+          "description": "Prompt engineering defines how clearly you can communicate with an AI — the clearer the question, the better the answer."
+        },
+        {
+          "label": "Practical use",
+          "description": "Used in chatbots, automation, and LLM fine-tuning to generate specific, controlled responses."
+        }
+      ]
+    },
+    {
+      "slug": "context-engineering",
+      "title": "Context Engineering",
+      "overview": "Context Engineering focuses on supplying background knowledge, constraints, and structure so AI systems can reason within the right scope. It helps ensure outputs are not just accurate — but relevant and grounded.",
+      "flippingCards": [
+        {
+          "frontTitle": "Structured Background",
+          "frontDescription": "Guiding AI with supporting context.",
+          "backContent": "Context engineering ensures that the model has access to all necessary background data, examples, and parameters before generating a response."
+        },
+        {
+          "frontTitle": "Enhanced Relevance",
+          "frontDescription": "Broader awareness, better answers.",
+          "backContent": "By feeding the AI relevant information, context engineering reduces hallucinations and ensures results remain consistent with real-world facts."
+        }
+      ],
+      "comparison": {
+        "title": "Prompt Engineering vs Context Engineering",
+        "points": [
+          {
+            "aspect": "Focus",
+            "prompt": "Focuses on *how* a question is asked.",
+            "context": "Focuses on *what information* surrounds the question."
+          },
+          {
+            "aspect": "Primary Benefit",
+            "prompt": "Improves direct communication.",
+            "context": "Improves understanding depth and scope."
+          },
+          {
+            "aspect": "Example",
+            "prompt": "Example: Asking a specific question.",
+            "context": "Example: Providing reference data or user history."
+          }
+        ]
+      },
+      "circularButtons": [
+        {
+          "label": "Why it matters",
+          "description": "Context shapes understanding — without it, even perfect prompts can produce irrelevant results."
+        },
+        {
+          "label": "Practical use",
+          "description": "Used in RAG (Retrieval-Augmented Generation) systems to provide background info for smarter AI responses."
+        }
+      ]
+    },
+    {
+      "slug": "chain-of-thought",
+      "title": "Chain of Thought (CoT)",
+      "overview": "Chain of Thought encourages models to reason step-by-step before answering. It’s like showing your work — leading to more transparent and logical outputs.",
+      "flippingCards": [
+        {
+          "frontTitle": "Step-by-Step Reasoning",
+          "frontDescription": "Breaking complex problems into smaller ones.",
+          "backContent": "By prompting the model to think aloud (internally), it produces structured reasoning that mimics human thought."
+        },
+        {
+          "frontTitle": "Transparency",
+          "frontDescription": "You can see the reasoning trail.",
+          "backContent": "CoT makes AI reasoning more interpretable, revealing how the model arrives at its conclusions."
+        }
+      ],
+      "comparison": {
+        "title": "Chain of Thought vs Tree of Thought",
+        "points": [
+          {
+            "aspect": "Reasoning Style",
+            "cot": "Follows a single linear reasoning path.",
+            "tot": "Explores multiple reasoning paths simultaneously."
+          },
+          {
+            "aspect": "Best For",
+            "cot": "Efficient for tasks needing logical flow.",
+            "tot": "Effective for complex decisions with multiple solutions."
+          },
+          {
+            "aspect": "Emphasis",
+            "cot": "Focuses on correctness.",
+            "tot": "Focuses on creativity and optimization."
+          }
+        ]
+      },
+      "circularButtons": [
+        {
+          "label": "Why it matters",
+          "description": "CoT improves reliability for reasoning-heavy tasks like math, logic, and analysis."
+        },
+        {
+          "label": "Practical use",
+          "description": "Applied in educational, diagnostic, and problem-solving AI models for clearer logical output."
+        }
+      ]
+    },
+    {
+      "slug": "tree-of-thought",
+      "title": "Tree of Thought (ToT)",
+      "overview": "Tree of Thought expands on CoT by exploring multiple reasoning paths simultaneously. It helps AI models brainstorm, evaluate, and choose the most optimal path to the final answer.",
+      "flippingCards": [
+        {
+          "frontTitle": "Exploration",
+          "frontDescription": "AI explores multiple ideas before deciding.",
+          "backContent": "ToT enables structured branching — the AI considers several reasoning paths, evaluates them, and picks the best one."
+        },
+        {
+          "frontTitle": "Evaluation",
+          "frontDescription": "Finding the most logical or creative path.",
+          "backContent": "Each reasoning branch is scored or reviewed, leading to improved decision quality and innovation."
+        }
+      ],
+      "comparison": {
+        "title": "Chain of Thought vs Tree of Thought",
+        "points": [
+          {
+            "aspect": "Reasoning Style",
+            "cot": "Linear reasoning.",
+            "tot": "Branch-based reasoning."
+          },
+          {
+            "aspect": "Best For",
+            "cot": "Ideal for well-defined tasks.",
+            "tot": "Ideal for creative or open-ended tasks."
+          },
+          {
+            "aspect": "Scope",
+            "cot": "Simplifies reasoning.",
+            "tot": "Expands reasoning scope."
+          }
+        ]
+      },
+      "circularButtons": [
+        {
+          "label": "Why it matters",
+          "description": "ToT improves creativity, adaptability, and decision quality in complex reasoning tasks."
+        },
+        {
+          "label": "Practical use",
+          "description": "Used in planning, story generation, and multi-solution problem-solving models."
+        }
+      ]
+    }
+  ]
+}
